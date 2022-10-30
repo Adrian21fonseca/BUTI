@@ -1,0 +1,110 @@
+body {
+    margin: 0%;
+    background-color: rgb(251, 234, 255);
+}
+
+header {
+    padding: 4rem;
+    background-color: rgb(255, 217, 253);
+    text-align: center;
+}
+
+header img {
+    border-radius: 50px;
+}
+
+.url {
+    text-align: center;
+}
+
+section a {
+    margin: 30px;
+    padding: 2rem;
+    background-color: rgb(255, 226, 255);
+    border-radius: 50px;
+    text-decoration: none;
+    color: blueviolet;
+    transition: .7s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section a:hover {
+    background-color: rgb(232, 141, 255);
+    color: rgb(76, 0, 255);
+}
+
+section img {
+    margin-top: 30px;
+}
+
+section h1 {
+    font-size: 60px;
+    margin: 0 auto;
+    margin: 1rem;
+}
+
+section div {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.contenido {
+    margin-top: 2rem;
+    width: 900px;
+    margin:  0 auto;
+    background-color: rgb(253, 233, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0.3rem 0.3rem 0.4rem rgb(232, 141, 255); 
+    transition: .7s;
+}
+
+.contenido:hover {
+    background-color: rgb(240, 179, 255);
+    color: rgb(144, 96, 255);
+}
+
+.contenedores {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contenedores article {
+    background-color: rgb(254, 216, 255);
+    margin: 1rem 0;
+    border-radius: 20px;
+}
+
+.contenedores article h1, .contenedores article p {
+    margin: 20px;
+}
+
+article:hover {
+    box-shadow: 0 0.4rem 0.8rem rgb(144, 96, 255);
+}
+
+footer {
+    padding: 4rem;
+    font-size: 1rem;
+    margin: 0 auto;
+    background-color: rgb(255, 217, 253);
+}
+
+footer p {
+    float: left;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-left: 13px;
+    transition: 1.5s;
+}
+
+footer a:hover {
+    color: rgb(164, 4, 212);
+    transition: .7s;
+}
